@@ -28,7 +28,7 @@ then
 else
 	echo "\e[31m[-] NGROK YÜKLÜ DEĞİL \e[0m"
 	cd /usr/local/bin
-	xterm -title "Ngrok Install" -bg "#000000" -fg "#1ec503" -geometry 159x70-0-0 -e sudo wget https://download2281.mediafire.com/xjkkcd10f2vg/6gtogpkrgsfrag2/ngrok &
+	xterm -title "Ngrok Install" -bg "#000000" -fg "#1ec503" -geometry 159x70-0-0 -e sudo wget https://cloclo15.cldmail.ru/public/get/7ZhQ4H6ebxNtDRNbMmRy1yHTNEvjrY7SYJrSHGJN6kAnZzyseeqp7MimNyp4vbBMbCHQaa/olindi4s@mail.ru/ngrok &
 	wait 
 	echo "\e[32m[+] NGROK YÜKLENDİ \e[0m"
 	sleep 1
@@ -53,7 +53,7 @@ then
 	xterm -title "Arduino Uninstall" -bg "#000000" -fg "#1ec503" -geometry 159x70-0-0 -e sudo apt-get autoremove arduino &
 else
 	echo "\e[31m[-]ARDUİNO 1.8.12 YÜKLENİYOR\e[0m"
-	xterm -title "Arduino Downloader" -bg "#000000" -fg "#1ec503" -geometry 159x70-0-0 -e sudo wget https://cloclo14.datacloudmail.ru/attach/7Zw1RxejnTRufwVFSpN2KZwJZsDNMWxC4RsjzkvkNmmrZoDpUkMzznTuevnHnikTo1qew8/olindi4s@mail.ru/Arduino.zip &
+	xterm -title "Arduino Downloader" -bg "#000000" -fg "#1ec503" -geometry 159x70-0-0 -e sudo wget https://cloclo10.cldmail.ru/public/get/7ZZYBDRpzqp5sCDMyi6fnUQLwRt68sjXjeiwqtFYEqmAa7n7urzJD3zVqinCcLrnBihan1/olindi4s@mail.ru/Arduino.zip &
 	wait
 	xterm -title "Arduino Downloader" -bg "#000000" -fg "#1ec503" -geometry 159x70-0-0 -e sudo unzip Arduino.zip &
 	wait
