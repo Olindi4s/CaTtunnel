@@ -61,7 +61,6 @@ else
 	xterm -title "Arduino install" -bg "#000000" -fg "#1ec503" -geometry 159x70-0-0 -e sudo ./instal.sh &
 	wait
 	echo "\e[32m[+]ARDUİNO  YÜKLENDİ \e[0m"
-	sudo rm -r Arduino.zip
 	sleep 1
 fi
 
