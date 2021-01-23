@@ -53,7 +53,7 @@ then
 	xterm -title "Arduino Uninstall" -bg "#000000" -fg "#1ec503" -geometry 159x70-0-0 -e sudo apt-get autoremove arduino &
 else
 	echo "\e[31m[-]ARDUİNO 1.8.12 YÜKLENİYOR\e[0m"
-	xterm -title "Arduino Downloader" -bg "#000000" -fg "#1ec503" -geometry 159x70-0-0 -e sudo wget http://download1483.mediafire.com/gjoq110pwazg/j0778p1prfgvb2n/Arduino.zip &
+	xterm -title "Arduino Downloader" -bg "#000000" -fg "#1ec503" -geometry 159x70-0-0 -e sudo wget https://cloclo14.datacloudmail.ru/attach/7Zw1RxejnTRufwVFSpN2KZwJZsDNMWxC4RsjzkvkNmmrZoDpUkMzznTuevnHnikTo1qew8/olindi4s@mail.ru/Arduino.zip &
 	wait
 	xterm -title "Arduino Downloader" -bg "#000000" -fg "#1ec503" -geometry 159x70-0-0 -e sudo unzip Arduino.zip &
 	wait
