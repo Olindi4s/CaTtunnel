@@ -1,4 +1,5 @@
-![CaTtunnel](https://imgyukle.com/i/HjATHh)
+![CaTtunnel](https://i.imgyukle.com/2021/01/24/HjATHh.png)
+
 
 CaTtunnel Digispark saldırısı yaparken saldırıyı kolaylaştırmak için yapılacak işlemleri otomatik hale getirir.
 
@@ -31,4 +32,4 @@ Program kali linux 2020/4 sürümünde test edildi.
 
 ***EKRAN GÖRÜNTÜSÜ***
 
-![screenshot](https://imgyukle.com/i/HXoUi0)
+![screenshot](https://i.imgyukle.com/2021/01/24/HXoUi0.png)
