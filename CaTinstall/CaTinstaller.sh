@@ -57,9 +57,11 @@ else
 	wait
 	xterm -title "Arduino Downloader" -bg "#000000" -fg "#1ec503" -geometry 159x70-0-0 -e sudo unzip Arduino.zip &
 	wait
+	sudo rm -r Arduino.zip
 	cd Arduino
 	xterm -title "Arduino install" -bg "#000000" -fg "#1ec503" -geometry 159x70-0-0 -e sudo ./instal.sh &
 	wait
+	
 	echo "\e[32m[+]ARDUİNO  YÜKLENDİ \e[0m"
 	sleep 1
 fi
