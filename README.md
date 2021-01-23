@@ -15,10 +15,15 @@ CaTtunnel uygulamasını bir kişi ya da kurumdan izin almadan kullanmak yasa d�
 ***YÜKLEME ADIMLARI***
 
 cd /opt
+
 git clone https://github.com/Olindi4s/CaTtunnel
+
 cd CaTtunnel/CaTinsatall
+
 sudo sh ./CaTinstall.sh
+
 cd ..
+
 sudo sh ./CaTtunnek.sh
 
 ***DİGİSTUMP DRİVER JSON URL***
