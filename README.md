@@ -24,7 +24,7 @@ sudo sh ./CaTinstall.sh
 
 cd ..
 
-sudo sh ./CaTtunnek.sh
+sudo sh ./CaTtunnel.sh
 
 ***DİGİSTUMP DRİVER JSON URL***
 
