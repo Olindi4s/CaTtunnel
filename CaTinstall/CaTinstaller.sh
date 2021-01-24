@@ -35,7 +35,7 @@ fi
 sleep 1
 
 unzipcontrol=/usr/bin/unzip
-if [ -d "$unzipcontrol" ]
+if [ -f "$unzipcontrol" ]
 then
 	echo "\e[32m[+]UNZİP YÜKLÜ \e[0m"
 else
