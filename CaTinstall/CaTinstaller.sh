@@ -78,9 +78,9 @@ arduinocontrol=/opt/CaTtunnel/CaTinstall/arduino-1.8.12
 if [ -d "$arduinocontrol" ]
 then
 	echo "\e[32m[+]ARDUİNO 1.8.12 YÜKLÜ\e[0m"
-	xterm -title "Arduino Uninstall" -bg "#000000" -fg "#1ec503" -geometry 159x70-0-0 -e sudo apt-get autoremove arduino &
 	wait
 else
+	xterm -title "Arduino Uninstall" -bg "#000000" -fg "#1ec503" -geometry 159x70-0-0 -e sudo apt-get autoremove arduino &
 	cd /opt/CaTtunnel/CaTinstall
 	sleep 1
 	echo "\e[31m[-]ARDUİNO 1.8.12 YÜKLENİYOR\e[0m"
