@@ -35,7 +35,7 @@ else
 fi
 
 arduinoid=0
-arduinocontrol=/opt/CaTtunnel/CaTinstall/Arduino
+arduinocontrol=/opt/CaTtunnel/CaTinstall/Arduino-1.8.12
 if [ -d "$arduinocontrol" ]
 then
 	echo ""
