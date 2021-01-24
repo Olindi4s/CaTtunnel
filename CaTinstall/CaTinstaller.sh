@@ -89,7 +89,7 @@ else
 	xterm -title "Arduino Extracting" -bg "#000000" -fg "#1ec503" -geometry 159x70-0-0 -e sudo tar -xvf arduino-1.8.12-linux64.tar.xz &
 	wait
 	cd arduino-1.8.12
-	xterm -title "Arduino install" -bg "#000000" -fg "#1ec503" -geometry 159x70-0-0 -e sudo ./instal.sh &
+	xterm -title "Arduino install" -bg "#000000" -fg "#1ec503" -geometry 159x70-0-0 -e sudo sh ./install.sh &
 	wait
 	echo "\e[32m[+]ARDUİNO  YÜKLENDİ \e[0m"
 	sleep 1
