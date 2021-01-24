@@ -35,7 +35,7 @@ else
 fi
 
 arduinoid=0
-arduinocontrol=/opt/CaTtunnel/CaTinstall/Arduino-1.8.12
+arduinocontrol=/opt/CaTtunnel/CaTinstall/arduino-1.8.12
 if [ -d "$arduinocontrol" ]
 then
 	echo ""
@@ -142,7 +142,6 @@ then
 else
 	echo "\e[31m[HATA]EKSİK BİR ŞEY VAR... LÜTFEN[==>]CATİNSTALL[<==] BETİĞİNİ ÇALIŞTIR.\e[0m"
 	exit 1
-fi
 fi
 if [ $xtermid -eq 0 ]
 then
