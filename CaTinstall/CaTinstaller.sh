@@ -55,7 +55,9 @@ else
 	echo "\e[31m[-] NGROK YÜKLÜ DEĞİL \e[0m"
 	cd /usr/local/bin
 	xterm -title "Ngrok Install" -bg "#000000" -fg "#1ec503" -geometry 159x70-0-0 -e sudo https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip &
+	wait
 	xterm -title "Unzip Extracting" -bg "#000000" -fg "#1ec503" -geometry 159x70-0-0 -e sudo unzip ngrok-stable-linux-amd64.zip &
+	wait
 	echo "\e[32m[+] NGROK YÜKLENDİ \e[0m"
 	sleep 1
 fi
