@@ -74,7 +74,7 @@ else
 	sleep 1
 fi
 
-arduinocontrol=/opt/CaTtunnel/arduino-1.8.12
+arduinocontrol=/opt/CaTtunnel/CaTinstall/arduino-1.8.12
 if [ -d "$arduinocontrol" ]
 then
 	echo "\e[32m[+]ARDUİNO 1.8.12 YÜKLÜ\e[0m"
